@@ -1,7 +1,3 @@
-Here's a **condensed version** of the `README.md` for your Recipe Recommender Assignment project:
-
----
-
 # 🍲 Recipe Recommender System using PySpark on AWS EC2
 
 ## 📑 Project Overview
@@ -18,7 +14,6 @@ Designing a recommendation engine for **food.com** to suggest relevant recipes b
 2. **Data Exploration**: Load and preprocess data using PySpark.
 3. **EDA & Feature Engineering**: Analyze data patterns to prepare features for model building.
 
----
 
 ## 🛠️ Setup Instructions
 
@@ -40,8 +35,6 @@ wget https://raw-recipes-clean-upgrad.s3.amazonaws.com/RAW_recipes_cleaned.csv
 wget https://raw-interactions-upgrad.s3.amazonaws.com/RAW_interactions_cleaned.csv
 ```
 
----
-
 ## 📊 Exploratory Data Analysis
 - **Load Data**:
   ```python
@@ -56,8 +49,6 @@ wget https://raw-interactions-upgrad.s3.amazonaws.com/RAW_interactions_cleaned.c
   sns.histplot(interactions_pd['rating'], bins=5)
   ```
 
----
-
 ## 🔍 Key Insights
 - Recipes with higher ratings attract more interactions.
 - Seasonal trends observed for certain recipe categories.
@@ -68,13 +59,3 @@ wget https://raw-interactions-upgrad.s3.amazonaws.com/RAW_interactions_cleaned.c
 - Implement collaborative filtering models.
 - Deploy using AWS SageMaker.
 
-## 💻 Author
-**Soumya Roy**  
-[Connect on LinkedIn](https://www.linkedin.com/in/connectsoumyaroy/)
-
-## 📜 License
-Licensed under the MIT License.
-
---- 
-
-This summary highlights the essential parts while keeping it concise for easy reading on GitHub. Let me know if you want any additional customization!
