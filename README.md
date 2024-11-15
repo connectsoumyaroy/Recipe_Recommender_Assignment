@@ -1,4 +1,4 @@
-Here's the summarized GitHub `README.md` in Markdown format:
+Here is the corrected version of the `README.md` file with proper Markdown syntax for a GitHub preview:
 
 ```markdown
 # 🍲 Recipe Recommender System using PySpark on AWS EC2
@@ -76,4 +76,4 @@ wget https://raw-interactions-upgrad.s3.amazonaws.com/RAW_interactions_cleaned.c
 Licensed under the MIT License.
 ```
 
-Feel free to copy and paste this Markdown code into your `README.md` file!
+The corrections include making sure the Markdown elements like headers, lists, and code blocks are properly formatted. This version should render correctly on GitHub.
