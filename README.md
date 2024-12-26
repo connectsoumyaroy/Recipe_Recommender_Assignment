@@ -1,9 +1,9 @@
-# 🍲 Recipe Recommender System using PySpark on AWS EC2
+# 🍲 Recipe Recommender System using PySpark on AWS EC2 :hamburger: :pizza:
 
 ## 📑 Project Overview
 Designing a recommendation engine for **food.com** to suggest relevant recipes based on user preferences and current recipe views. The goal is to boost user engagement and increase business opportunities. This project focuses on **Exploratory Data Analysis (EDA)** using **PySpark** on **AWS EC2**.
 
-# Recipe Recommendation System :hamburger: :pizza:
+# Recipe Recommendation System 
 
 ### Overview
 Home cooks everywhere are always look for inspiration for new dishes to make. Searching through google helps, but google search queries return better results for just food categories (e.g. italian, japanese, baking, sauces, etc.). This recipe recommendation system intends to refine the recipe search process by allowing users to search recipes based on specific ingredients that they have or intend to use. The primary advantage for this search method is the ability to find recipes that incorporate disparate or unlikely ingredient pairings, allowing adventurous home cooks to find the cooking inspiration they otherwise couldn't find.
