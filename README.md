@@ -15,8 +15,6 @@ Data was pulled from github account rtlee9 who prescraped data from Allrecipes.c
 1. Perform unsupervised Topic Modeling on the recipes to group recipes into categories. Then perform TextRank on the generated topics to produce keyword summarizations that can stand in as category names for each topic.
 2. Create a search algorithm that utilizes similarity scoring to rank recipes according to the greatest similarity to the search query.
 
-![Data Model Flow Chart](RecipeDataFlowChart.png)
-
 The general flow of data is visually summarized above. Starting with the raw recipe data, the recipes are cleaned, parsed, and TF-IDF vectorized by recipe. Using this vectorization, NMF topic modelling arbitrarily generates 50 topics. TextRank then pulls 25 keywords from each topic, and these keywords are appended to the top 2000 recipes in each topic. Recipe titles, ingredients, keywords, and instructions are then TF-IDF transformed along with an ingredients list, then a query similarity score is generated for each recipe and the recipes are returned based on similarity rank.
 
 ### Data Features:
